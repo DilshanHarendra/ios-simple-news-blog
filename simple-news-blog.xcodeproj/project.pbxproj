@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C90965F278207220004ECD7 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C90965E278207220004ECD7 /* RegisterView.swift */; };
+		4C90966427820D190004ECD7 /* DefaultLayoutt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C90966327820D190004ECD7 /* DefaultLayoutt.swift */; };
+		4C90967027820FD80004ECD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C90966F27820FD80004ECD7 /* HomeView.swift */; };
+		4C909678278210C90004ECD7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C909677278210C90004ECD7 /* SearchView.swift */; };
+		4C90967E278220780004ECD7 /* ArticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C90967D278220780004ECD7 /* ArticalView.swift */; };
 		4CF28CD3277CC8870075E87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28CD2277CC8870075E87C /* AppDelegate.swift */; };
 		4CF28CD5277CC8870075E87C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28CD4277CC8870075E87C /* SceneDelegate.swift */; };
 		4CF28CD7277CC8870075E87C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28CD6277CC8870075E87C /* ContentView.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C90965E278207220004ECD7 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4C90966327820D190004ECD7 /* DefaultLayoutt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLayoutt.swift; sourceTree = "<group>"; };
+		4C90966F27820FD80004ECD7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4C909677278210C90004ECD7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4C90967D278220780004ECD7 /* ArticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticalView.swift; sourceTree = "<group>"; };
 		4CF28CCF277CC8870075E87C /* simple-news-blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-news-blog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF28CD2277CC8870075E87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF28CD4277CC8870075E87C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C90966E27820F9C0004ECD7 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4C90966327820D190004ECD7 /* DefaultLayoutt.swift */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		4C90967C278220620004ECD7 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				4C90967D278220780004ECD7 /* ArticalView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		4CF28CC6277CC8870075E87C = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +167,13 @@
 		4CF28D05277CC9170075E87C /* views */ = {
 			isa = PBXGroup;
 			children = (
+				4C90967C278220620004ECD7 /* components */,
+				4C90966E27820F9C0004ECD7 /* layouts */,
 				4CF28CD6277CC8870075E87C /* ContentView.swift */,
 				4CF28D09277CCA180075E87C /* LoginView.swift */,
+				4C90965E278207220004ECD7 /* RegisterView.swift */,
+				4C90966F27820FD80004ECD7 /* HomeView.swift */,
+				4C909677278210C90004ECD7 /* SearchView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -278,7 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF28CD3277CC8870075E87C /* AppDelegate.swift in Sources */,
+				4C90967027820FD80004ECD7 /* HomeView.swift in Sources */,
+				4C90965F278207220004ECD7 /* RegisterView.swift in Sources */,
 				4CF28CD5277CC8870075E87C /* SceneDelegate.swift in Sources */,
+				4C909678278210C90004ECD7 /* SearchView.swift in Sources */,
+				4C90966427820D190004ECD7 /* DefaultLayoutt.swift in Sources */,
+				4C90967E278220780004ECD7 /* ArticalView.swift in Sources */,
 				4CF28D0A277CCA180075E87C /* LoginView.swift in Sources */,
 				4CF28CD7277CC8870075E87C /* ContentView.swift in Sources */,
 			);
