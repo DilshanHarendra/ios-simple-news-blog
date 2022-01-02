@@ -12,12 +12,13 @@ struct HomeView: View {
        
                 TabView {
                     HomeScreenView()
-                        .tabItem {
+                     .tabItem {
                             Image(systemName: "house")
                             Text("Home")
                         }
+                    
                     SearchView()
-                        .tabItem {
+                     .tabItem {
                             Image(systemName: "magnifyingglass")
                             Text("Search")
                         }
