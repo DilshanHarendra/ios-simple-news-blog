@@ -15,6 +15,7 @@
 		4CF28CDF277CC8900075E87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF28CDD277CC8900075E87C /* LaunchScreen.storyboard */; };
 		4CF28CEA277CC8900075E87C /* simple_news_blogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28CE9277CC8900075E87C /* simple_news_blogTests.swift */; };
 		4CF28CF5277CC8900075E87C /* simple_news_blogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28CF4277CC8900075E87C /* simple_news_blogUITests.swift */; };
+		4CF28D0A277CCA180075E87C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF28D09277CCA180075E87C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4CF28CF0277CC8900075E87C /* simple-news-blogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-news-blogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF28CF4277CC8900075E87C /* simple_news_blogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_news_blogUITests.swift; sourceTree = "<group>"; };
 		4CF28CF6277CC8900075E87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF28D09277CCA180075E87C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		4CF28CD1277CC8870075E87C /* simple-news-blog */ = {
 			isa = PBXGroup;
 			children = (
+				4CF28D05277CC9170075E87C /* views */,
 				4CF28CD2277CC8870075E87C /* AppDelegate.swift */,
 				4CF28CD4277CC8870075E87C /* SceneDelegate.swift */,
-				4CF28CD6277CC8870075E87C /* ContentView.swift */,
 				4CF28CD8277CC8900075E87C /* Assets.xcassets */,
 				4CF28CDD277CC8900075E87C /* LaunchScreen.storyboard */,
 				4CF28CE0277CC8900075E87C /* Info.plist */,
@@ -134,6 +136,15 @@
 				4CF28CF6277CC8900075E87C /* Info.plist */,
 			);
 			path = "simple-news-blogUITests";
+			sourceTree = "<group>";
+		};
+		4CF28D05277CC9170075E87C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4CF28CD6277CC8870075E87C /* ContentView.swift */,
+				4CF28D09277CCA180075E87C /* LoginView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			files = (
 				4CF28CD3277CC8870075E87C /* AppDelegate.swift in Sources */,
 				4CF28CD5277CC8870075E87C /* SceneDelegate.swift in Sources */,
+				4CF28D0A277CCA180075E87C /* LoginView.swift in Sources */,
 				4CF28CD7277CC8870075E87C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"simple-news-blog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "simple-news-blog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"simple-news-blog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "simple-news-blog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
